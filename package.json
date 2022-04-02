@@ -1,0 +1,25 @@
+{
+  "name": "test-truffle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "@truffle/hdwallet-provider": "^2.0.4",
+    "eth-gas-reporter": "^0.2.24",
+    "ganache": "^7.0.3",
+    "solidity-coverage": "^0.7.20",
+    "truffle": "^5.5.6"
+  },
+  "scripts": {
+    "ganache": "ganache -m 'usual prize valley point invest prepare moment lawsuit column walnut width offer'",
+    "test": "truffle test"
+  },
+  "author": "",
+  "license": "ISC"
+}
