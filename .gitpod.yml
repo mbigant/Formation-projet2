@@ -7,3 +7,6 @@ tasks:
       gp await-port 8545
       npx truffle test
     openMode: tab-after
+  - name: coverage
+    command: npx truffle run coverage
+    openMode: tab-after
