@@ -1,6 +1,6 @@
 tasks:
   - name: init
-    init: npm install
+    init: npm install && gp sync-done initDone
     command: npm run ganache
   - name: tests
     command: |
@@ -8,6 +8,7 @@ tasks:
       npx truffle test
     openMode: tab-after
   - name: coverage
+    init: gp sync-await initDone
     command: |
       npx truffle run coverage
-    openMode: tab-after
+    openMode: split-right
