@@ -13,8 +13,8 @@
     "@truffle/hdwallet-provider": "^2.0.4",
     "eth-gas-reporter": "^0.2.24",
     "ganache": "^7.0.3",
-    "solidity-coverage": "^0.7.20",
-    "truffle": "^5.5.6"
+    "solidity-coverage": "^0.8.0-beta.0",
+    "truffle": "^5.5.7"
   },
   "scripts": {
     "ganache": "ganache -m 'usual prize valley point invest prepare moment lawsuit column walnut width offer'",
