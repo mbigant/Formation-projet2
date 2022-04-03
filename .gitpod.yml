@@ -8,5 +8,6 @@ tasks:
       npx truffle test
     openMode: tab-after
   - name: coverage
-    command: npx truffle run coverage
+    command: |
+      npx truffle run coverage
     openMode: tab-after
