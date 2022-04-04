@@ -36,7 +36,7 @@ Deux méthodes ont été créées afin de factoriser les tests de contrôle du c
 
 1) **Workflow**
     - At initial state
-      - should have status set to "RegisteringVoters" :white_check_mark:
+      - should have status set to "RegisteringVoters"
       - should revert on adding proposal
       - should revert on voting
       - should revert if ending proposal registering
